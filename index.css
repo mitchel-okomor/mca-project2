@@ -1,0 +1,153 @@
+*,a{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    color: #323130;
+    background-color: #fff;
+}
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 18% 82%;
+}
+.sidenav{
+    width: 100%;
+    background-color: #5fcc71;
+    height: 100vh;
+    margin: auto;
+    margin-top: 0;
+text-align: center;
+padding: 20px;
+color: #fcfefc;
+}
+
+
+.sidenav > img{
+    margin-top: 1rem;
+    
+}
+
+.sidenav > section> p{
+    font-size: 0.7rem;
+    margin-top: 0.3rem;
+
+}
+.sidenav>section>p >a{color: #fff;}
+.social-links{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+.social-links> img{
+    margin-right: 0.4rem;
+}
+
+hr{
+    color: #5ac36c;
+    border: 1px solid #50c062;
+}
+
+.side-links{
+margin-top: 1rem;
+}
+.side-links> button{
+    background-color: #448e4f;
+    border: none;
+    border-radius: 0.3rem;
+    height: 2.2rem;
+    padding: 0.7rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.side-links>ul{
+list-style-type: none;
+margin: auto;
+text-align: center;
+}
+.side-links>ul>li{
+   margin-left: 3rem;
+    text-align: start;  
+    width: 7rem; 
+}
+.side-links>ul>li>img{
+    width: 10px;
+    height: 10px;
+    margin: 0.1rem;
+
+}
+
+
+.main-content{
+    width: 100%;
+    color:black;
+    margin-bottom: 1rem;
+}
+
+.page-intro{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background: #fafafa;
+    height: 12rem;
+    padding-top: 2rem;
+
+}
+.page-intro > h1{
+    margin-bottom: 0.5rem;
+}
+.page-intro > p{
+    margin-bottom: 0.9rem;
+}
+.search > input{
+    height: 2.4rem;
+    border-radius: 0.2rem;
+    border: #a8a7a5 solid 0.1rem;
+width: 20rem;
+}
+.search > button{
+    height: 2.4rem;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    background-color: #5fcc71;
+    color: white;
+    font-weight: bold;
+    margin-left: 0.3rem;
+}
+
+.blog-post{
+    margin-top: 2.5rem;
+    margin-left: 7rem;
+    display: grid;
+    grid-template-columns: 15% 80%;
+}
+.blog-post> div{
+    margin-right: 0.9rem;
+}
+
+.post{
+    width: 85%;
+}
+.post>h3{
+    margin-top: 0.3rem;
+}
+.post>h5{
+    color: #a7a7a7;
+    font-weight: 50;
+    font-size: small;
+    margin-top: 0.2rem;
+
+}
+.post>p{
+    margin-top: 0.2rem;
+    font-size: small;
+}
+.post>a{
+    text-decoration: none;
+    color: #5fcc71;
+    font-size: small;
+    margin-top: 0.2rem;
+}
