@@ -1,0 +1,18 @@
+.about-content{
+    margin:3rem 8rem 2rem 8rem ;
+}
+.about-content > section > h3 {
+    margin-bottom: 0.6rem;
+
+}
+.about{
+    margin-bottom: 3rem;
+}
+.about> div >img{
+    margin-top: 1rem;
+
+}
+.about> div >p{
+    margin-top: 0.8rem;
+
+}
