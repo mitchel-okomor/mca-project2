@@ -2,10 +2,13 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 
 }
 
+h1{
+    line-height: 2rem;
+}
 
 body{
     color: #323130;
@@ -126,15 +129,15 @@ width: 20rem;
     display: grid;
     grid-template-columns: 15% 80%;
 }
-.blog-post> div{
-    margin-right: 0.9rem;
-}
+
 
 .post{
-    width: 85%;
+    width: 90%;
+    margin-left: 0.9rem;
+
 }
 .post>h3{
-    margin-top: 0.3rem;
+    margin-top: 0.1rem;
 }
 .post>h5{
     color: #a7a7a7;
@@ -153,3 +156,74 @@ width: 20rem;
     font-size: small;
     margin-top: 0.2rem;
 }
+
+.menu{
+    width: 100%;
+    background-color: #5fcc71;
+    height: 4rem;
+}
+.menu>button{
+    float: left;
+    background-color: transparent;
+    color: white;
+    margin-left: 1rem;
+    margin-top: 0.7rem;
+    width: 3rem;
+border: #fff solid 1px;
+border-radius: 1px;
+width: 3rem;
+height: 2.5rem;
+outline: none !important;
+box-shadow: none !important;
+}
+svg{
+    fill: white;
+    margin: auto;
+    text-align: center;
+}
+.blog-title{
+    margin-left: 7rem;
+    padding-top: 0.5rem;
+}
+.blog-title>h2{
+        font-weight: 1000;
+color:white;
+}
+
+/*media queries*/
+@media screen and (max-width: 480px) {
+.sidenav{
+    display: none;
+}
+.container{
+    display: block;
+}
+.blog-post{
+    display: block;
+    margin-left: 1rem;
+    margin-right: 1.2rem;
+}
+.post-image{
+    display: none;
+}
+.page-intro{
+    height: 20rem;
+}
+
+.post{
+    width: 100%;
+    margin-left: 0;
+}
+.search>button{
+    width: 20rem;
+margin-top: 0.7rem;
+margin-left: 0;
+
+}
+
+  }
+  @media screen and (min-width: 480px) {
+.menu{
+    display: none;
+}
+  }

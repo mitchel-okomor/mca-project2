@@ -23,7 +23,7 @@
 
 }
 .post-content>p{
-    margin-top: 0.2rem;
+    margin-top: 0.5rem;
     font-size: large;
 }
 .post-content>a{
@@ -31,4 +31,27 @@
     color: #5fcc71;
     font-size: small;
     margin-top: 0.2rem;
+}
+
+figcaption{
+    color: #a7a7a7;
+    font-size: 0.8rem;
+}
+
+/*media queries*/
+@media screen and (max-width: 480px) {
+    .post-container{
+        margin-left: 1rem;
+        width: 100%;
+    }
+    
+    .post-content>p{
+        margin-top: 1rem;
+        font-size: large;
+        
+    }
+    .full-post> div{
+        margin-right: 0;
+    }
+    
 }

@@ -16,3 +16,10 @@
     margin-top: 0.8rem;
 
 }
+
+/*media queries*/
+@media screen and (max-width: 480px) {
+    .about-content{
+        margin:3rem 1rem 2rem 1rem ;
+    }
+}
