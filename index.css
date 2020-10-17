@@ -43,11 +43,14 @@ color: #fcfefc;
 }
 .sidenav>section>p >a{color: #fff;}
 .social-links{
+    width: 100%;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
 }
 .social-links> img{
     margin-right: 0.4rem;
+    width: 1.5em;
+    height: 1.em;
 }
 
 hr{
@@ -59,32 +62,46 @@ hr{
 margin-top: 1rem;
 }
 .side-links> button{
-    background-color: #448e4f;
+    background-color: #2155298a;
+    color: #fff;
+    font-weight: 600;
     border: none;
     border-radius: 0.3rem;
-    height: 2.2rem;
+    height: 2.5rem;
     padding: 0.7rem;
     margin-top: 1rem;
     cursor: pointer;
 }
 .side-links>ul{
 list-style-type: none;
-margin: auto;
-text-align: center;
+margin-left: 2rem;
+
 }
 .side-links>ul>li{
-   margin-left: 3rem;
+    width: max-content;
     text-align: start;  
     width: 7rem; 
+    color:rgba(255, 255, 255, 0.700);
+    margin-left: 1.5rem;
 }
-.side-links>ul>li>img{
-    width: 10px;
-    height: 10px;
-    margin: 0.1rem;
-
+.side-links>ul>li>a{
+    text-decoration: none;
+    font-weight: 900;
+    margin-left: 0.9rem;
+    font-size:0.9rem;
+}
+.side-links>ul>li>i{
+    width: 0.1rem;
+    font-size: 0.9rem;
 }
 
+.side-links>ul>li>a{
+    color: rgba(255, 255, 255, 0.700);
+    }
 
+.side-links>ul>li>a:visited{
+color: rgba(255, 255, 255, 0.700);
+}
 .main-content{
     width: 100%;
     color:black;
@@ -110,6 +127,7 @@ text-align: center;
     height: 2.4rem;
     border-radius: 0.2rem;
     border: #a8a7a5 solid 0.1rem;
+    padding-left: 1rem;
 width: 20rem;
 }
 .search > button{
@@ -133,12 +151,10 @@ width: 20rem;
 
 .post{
     width: 90%;
-    margin-left: 0.9rem;
+    margin-left: 0.1rem;
 
 }
-.post>h3{
-    margin-top: 0.1rem;
-}
+
 .post>h5{
     color: #a7a7a7;
     font-weight: 50;
@@ -160,14 +176,14 @@ width: 20rem;
 .menu{
     width: 100%;
     background-color: #5fcc71;
-    height: 4rem;
+    min-height: 4rem;
 }
 .menu>button{
-    float: left;
+   position: fixed;
+   top: 4px;
+   left: 3px;
     background-color: transparent;
     color: white;
-    margin-left: 1rem;
-    margin-top: 0.7rem;
     width: 3rem;
 border: #fff solid 1px;
 border-radius: 1px;
@@ -176,6 +192,33 @@ height: 2.5rem;
 outline: none !important;
 box-shadow: none !important;
 }
+
+.menu-items{
+    list-style-type: none;
+    margin-top: 0.5rem;
+    padding-bottom: 1rem;
+    background-color: #5fcc71;
+}
+   .remove-menu{
+        display: none;
+   }
+    .menu-items>li{ 
+        margin: auto;
+        padding-top: 0.2rem;
+        text-align: center;
+        width: 100%; 
+        color:rgba(255, 255, 255, 0.700);
+
+    }
+    .menu-items>li>a{
+        width: max-content;
+        text-decoration: none;
+        font-weight: 900;
+        font-size:1.2rem;
+        color: rgba(255, 255, 255, 0.700);
+        
+    }
+   
 svg{
     fill: white;
     margin: auto;

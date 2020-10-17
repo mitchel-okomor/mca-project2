@@ -10,7 +10,9 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DevBlog</title>
+    <script src="https://use.fontawesome.com/1e51dfab0e.js"></script>
     <link rel="stylesheet" href="index.css" />
+    <script src="./script.js"></script>
   </head>
   <body>
     <div class="container">
@@ -70,23 +72,32 @@
         </div>
         <hr />
         <div class="side-links">
-          <ul>
-            <li><img src="./images/home.png" alt="home" /> <a href="#">Blog Home</a> </li>
-            <li><img src="./images/blog.png" alt="post" /> <a href="./pages/blog.html">Blog Post</a> </li>
-            <li><img src="./images/person.png" alt="about me" /><a href="./pages/about.html">About Me</a> </li>
-          </ul>
+            <ul>
+              <li>
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <a href="#">Blog Home</a> </li>
+              <li><i class="fa fa-bookmark" aria-hidden="true"></i> <a href="./pages/blog.html">Blog Post</a> </li>
+              <li><i class="fa fa-user" aria-hidden="true"></i>
+                <a href="./pages/about.html">About Me</a> </li>
+            </ul>
           <button>Get in Touch</button>
         </div>
       </div>
 
       <!--Mobile menu-->
       <div class="menu">
-        <button> <svg viewBox="5 0 50 100" width="40" height="40">
+        <button id="toggle" onclick="toggleNav()"> <svg viewBox="5 0 50 100" width="40" height="40">
           <rect y ="21" width="60" height="6"></rect>
           <rect y="40" width="60" height="6"></rect>
           <rect y="60" width="60" height="6"></rect>
         </svg> </button>
-      <div class="blog-title"><h2>Mitchy's Blog</h2></div>
+      <div class="blog-title"><h2>Mitchy's Blog</h2> 
+       </div>
+       <ul class="menu-items remove-menu" id="toggle-items">
+        <li><a href="#">Blog Home</a> </li>
+        <li><a href="./pages/blog.html">Blog Post</a> </li>
+        <li><a href="./pages/about.html">About Me</a> </li>
+      </ul>
       </div>
 
       <!--Main content -->
