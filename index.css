@@ -22,7 +22,7 @@ body{
 .sidenav{
     width: 100%;
     background-color: #5fcc71;
-    height: 100vh;
+    min-height: 100vh;
     margin: auto;
     margin-top: 0;
 text-align: center;
@@ -45,21 +45,42 @@ color: #fcfefc;
 .social-links{
     width: 100%;
     margin-top: 1.5rem;
-    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
-.social-links> img{
-    margin-right: 0.4rem;
-    width: 1.5em;
-    height: 1.em;
+.social-links> a>i{
+    background-color: white;
+    color:  #5fcc71;
+    border-radius: 50%;
+    padding-top: 0.5rem;
+    height: 1.9rem;
+    width: 100%;
+    margin-right: 0.5rem;
+  font-size: 0.9rem;
 }
+
+.social-links>a:visited{
+   color: white;
+}
+
+.social-links>a{
+    margin-right: 0.5rem;
+    height: 1.6rem;
+    width: 1.7rem;
+ }
+ 
 
 hr{
     color: #5ac36c;
     border: 1px solid #50c062;
+    margin-bottom: 1.2rem;
+    margin-top: 1.2rem;
 }
 
 .side-links{
-margin-top: 1rem;
+width: max-content;
+margin: auto;
+text-align: center;
 }
 .side-links> button{
     background-color: #2155298a;
@@ -74,15 +95,13 @@ margin-top: 1rem;
 }
 .side-links>ul{
 list-style-type: none;
-margin-left: 2rem;
-
+width: max-content;
 }
 .side-links>ul>li{
     width: max-content;
-    text-align: start;  
-    width: 7rem; 
     color:rgba(255, 255, 255, 0.700);
-    margin-left: 1.5rem;
+    margin-bottom: 0.6rem;
+
 }
 .side-links>ul>li>a{
     text-decoration: none;
@@ -102,6 +121,7 @@ margin-left: 2rem;
 .side-links>ul>li>a:visited{
 color: rgba(255, 255, 255, 0.700);
 }
+
 .main-content{
     width: 100%;
     color:black;
@@ -145,14 +165,18 @@ width: 20rem;
     margin-top: 2.5rem;
     margin-left: 7rem;
     display: grid;
+    grid-gap: 5%;
     grid-template-columns: 15% 80%;
 }
 
 
 .post{
     width: 90%;
-    margin-left: 0.1rem;
 
+}
+
+.post-image > img {
+    width: 100%;
 }
 
 .post>h5{
@@ -189,6 +213,7 @@ border: #fff solid 1px;
 border-radius: 1px;
 width: 3rem;
 height: 2.5rem;
+font-size: x-large;
 outline: none !important;
 box-shadow: none !important;
 }

@@ -13,6 +13,8 @@
     <script src="https://use.fontawesome.com/1e51dfab0e.js"></script>
     <link rel="stylesheet" href="../index.css" />
     <link rel="stylesheet" href="blog.css">
+    <script src="../script.js"></script>
+
   </head>
   <body>
     <div class="container">
@@ -85,13 +87,13 @@
       </div>
           <!--Mobile menu-->
           <div class="menu">
-            <button> <svg viewBox="5 0 50 100" width="40" height="40">
+            <button id="toggle-button" onclick="toggleNav()"> <svg viewBox="5 0 50 100" width="40" height="40">
               <rect y ="21" width="60" height="6"></rect>
               <rect y="40" width="60" height="6"></rect>
               <rect y="60" width="60" height="6"></rect>
             </svg> </button>
           <div class="blog-title"><h2>Mitchy's Blog</h2></div>
-          <ul class="menu-items">
+          <ul class="menu-items remove-menu" id="toggle-items">
             <li><a href="../index.html">Blog Home</a> </li>
             <li><a href="./blog.html">Blog Post</a> </li>
             <li><a href="./about.html">About Me</a> </li>

@@ -42,21 +42,25 @@ figcaption{
 @media screen and (max-width: 480px) {
     .post-container{
         margin-left: 1rem;
-        width: 100%;
+        width: 90%;
     }
     .post-content{
 width: 100%; 
-margin-right: 2rem;
 
 }
     
     .post-content>p{
         margin-top: 1rem;
         font-size: large;
-        
     }
     .full-post> div{
         margin-right: 0;
     }
     
+img{
+    width: 90%;
+}
+
+
+
 }
