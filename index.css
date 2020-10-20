@@ -144,7 +144,7 @@ color: rgba(255, 255, 255, 0.700);
     overflow: auto;
     width: 100%;
     color:black;
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 .page-intro{
@@ -286,7 +286,7 @@ color:white;
 }
 
 /*media queries*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 800px) {
 .sidenav{
     display: none;
 }
@@ -310,14 +310,19 @@ color:white;
     margin-left: 0;
 }
 .search>button{
-    width: 20rem;
-margin-top: 0.7rem;
-margin-left: 0;
+    width: 90%;
+margin: 0.7rem;
+
+}
+.search>input{
+    width: 90%;
+    margin: 0.7rem ;
+
 
 }
 
   }
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 800px) {
 .menu{
     display: none;
 }

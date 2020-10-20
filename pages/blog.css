@@ -39,7 +39,7 @@ figcaption{
 }
 
 /*media queries*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 800px) {
     .post-container{
         margin-left: 1rem;
         width: 90%;

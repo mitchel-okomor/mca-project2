@@ -18,7 +18,7 @@
 }
 
 /*media queries*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 800px) {
     .about-content{
         margin:3rem 1rem 2rem 1rem ;
     }
