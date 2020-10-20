@@ -58,10 +58,15 @@ color: #fcfefc;
     margin-right: 0.5rem;
   font-size: 0.9rem;
 }
-
+.social-links>a>i:hover{
+    color:#279714ed;
+ }
+ 
 .social-links>a:visited{
    color: white;
 }
+
+
 
 .social-links>a{
     margin-right: 0.5rem;
@@ -93,6 +98,11 @@ text-align: center;
     margin-top: 1rem;
     cursor: pointer;
 }
+.side-links> button:hover{
+    background-color: #fff;
+    color: #279714ed;
+  
+}
 .side-links>ul{
 list-style-type: none;
 width: max-content;
@@ -102,6 +112,10 @@ width: max-content;
     color:rgba(255, 255, 255, 0.700);
     margin-bottom: 0.6rem;
 
+}
+
+.side-links>ul>li:hover{
+    color: #279714ed;
 }
 .side-links>ul>li>a{
     text-decoration: none;
@@ -113,14 +127,16 @@ width: max-content;
     width: 0.1rem;
     font-size: 0.9rem;
 }
-
-.side-links>ul>li>a{
-    color: rgba(255, 255, 255, 0.700);
-    }
-
 .side-links>ul>li>a:visited{
 color: rgba(255, 255, 255, 0.700);
 }
+
+.side-links>ul>li>a:hover{
+    color: #279714ed;
+    }
+    
+
+
 
 .main-content{
     width: 100%;
@@ -159,6 +175,11 @@ width: 20rem;
     color: white;
     font-weight: bold;
     margin-left: 0.3rem;
+    cursor: pointer;
+}
+
+.search > button:hover{
+background-color: #279714ed;
 }
 
 .blog-post{
@@ -193,8 +214,11 @@ width: 20rem;
 .post>a{
     text-decoration: none;
     color: #5fcc71;
-    font-size: small;
+    font-size: 0.9rem;
     margin-top: 0.2rem;
+}
+.post>a:hover{
+    color:#279714ed
 }
 
 .menu{
