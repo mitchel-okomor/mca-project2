@@ -277,10 +277,11 @@ svg{
     text-align: center;
 }
 .blog-title{
-    margin-left: 7rem;
     padding-top: 0.5rem;
 }
 .blog-title>h2{
+    margin: auto;
+    text-align: center;
         font-weight: 1000;
 color:white;
 }
