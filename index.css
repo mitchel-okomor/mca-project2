@@ -20,6 +20,7 @@ body{
     display: grid;
     grid-template-columns: 18% 82%;
 }
+
 .sidenav{
     width: 100%;
     background-color: #5fcc71;
@@ -227,7 +228,7 @@ background-color: #279714ed;
 .menu{
     width: 100%;
     background-color: #5fcc71;
-    min-height: 4rem;
+    min-height: 3.2rem;
 }
 .menu>button{
    position: fixed;
@@ -251,9 +252,7 @@ box-shadow: none !important;
     padding-bottom: 1rem;
     background-color: #5fcc71;
 }
-   .remove-menu{
-        display: none;
-   }
+ 
     .menu-items>li{ 
         margin: auto;
         padding-top: 0.2rem;
@@ -277,7 +276,7 @@ svg{
     text-align: center;
 }
 .blog-title{
-    padding-top: 0.5rem;
+    display: none;
 }
 .blog-title>h2{
     margin: auto;
@@ -288,8 +287,13 @@ color:white;
 
 /*media queries*/
 @media screen and (max-width: 800px) {
-.sidenav{
+
+.remove-menu{
     display: none;
+}
+.blog-title{
+    padding-top: 0.2rem;
+    display: block;
 }
 .container{
     display: block;

@@ -3,6 +3,7 @@ function toggleNav(){
     var el = document.getElementById("toggle-items");
     var btn = document.getElementById("toggle-button");
     if(el.classList.contains("remove-menu")){
+        console.log("contained");
         el.classList.remove("remove-menu");
        btn.innerHTML = "X";
     }else{
